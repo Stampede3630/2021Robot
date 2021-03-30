@@ -86,11 +86,11 @@ public class Robot extends TimedRobot {
   /** This function is called periodically during operator control. */
   @Override
   public void teleopPeriodic() {
-    // We have coded both arcade and tank drive
-    // Feel free to switch by commenting
-
+    /**
+     * Periodically (multiple times a second) get the values from the
+     * controller and drive the motors with them
+     */
     DriveTrain.arcadeDrive();
-    // DriveTrain.tankDrive();
   }
 
   /** This function is called once when the robot is disabled. */
