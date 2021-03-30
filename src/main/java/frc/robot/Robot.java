@@ -87,8 +87,8 @@ public class Robot extends TimedRobot {
   @Override
   public void teleopPeriodic() {
     /**
-     * Periodically (multiple times a second) get the values from the
-     * controller and drive the motors with them
+     * Periodically (multiple times a second) get the values from the controller and
+     * drive the motors with them
      */
     DriveTrain.arcadeDrive();
   }

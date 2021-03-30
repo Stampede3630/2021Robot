@@ -20,7 +20,7 @@ public class DriveTrain {
     // (it's more fun drive with the battery weight in the back)
     double speed = -RobotMap.CONTROLLER.getY(Hand.kLeft);
     double rotation = RobotMap.CONTROLLER.getX(Hand.kRight);
-    
+
     // Compensating for not going straight
     // Not doing anything if robot is stationary
     // It is steering to the right and that's why
