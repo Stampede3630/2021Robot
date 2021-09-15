@@ -27,6 +27,7 @@ public class DriveTrain {
     // it is a negative value (turning to the left)
     // -0.18 just turned out to be a good value (trial and error)
     rotation += -0.18 * speed;
+    
 
     // Using square values for better sensitivity in low values
     DRIVE.arcadeDrive(speed, rotation, true);
